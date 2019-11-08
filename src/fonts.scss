@@ -1,0 +1,36 @@
+@font-face {
+ font-family: 'Helvetica Neue';
+ src: local('Helvetica Neue Bold Condensed'), local('Helvetica-Neue-Bold-Condensed'),
+     url('./fonts/HelveticaNeueBoldCondensed/HelveticaNeueBoldCondensed.woff2') format('woff2'),
+     url('./fonts/HelveticaNeueBoldCondensed/HelveticaNeueBoldCondensed.woff') format('woff'),
+     url('./fonts/HelveticaNeueBoldCondensed/HelveticaNeueBoldCondensed.ttf') format('truetype');
+ font-weight: 700;
+ font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica Neue Medium'), local('Helvetica-Neue-Medium'),
+        url('./fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+        url('./fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff') format('woff'),
+        url('./fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+@font-face {
+ font-family: 'Helvetica Neue Cyr Bold';
+ src: url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot');
+ src: url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+ url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff') format('woff'),
+ url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+ }
+ @font-face {
+  font-family: 'Minion Pro Regular';
+  src: url('./fonts/MinionPro-Regular/MinionPro-Regular.eot');
+  src: url('./fonts/MinionPro-Regular/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/MinionPro-Regular/MinionPro-Regular.woff') format('woff'),
+  url('./fonts/MinionPro-Regular/MinionPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
