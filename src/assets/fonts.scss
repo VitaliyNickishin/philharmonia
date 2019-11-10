@@ -16,15 +16,15 @@
  font-weight: 500;
  font-style: normal;
 }
-// @font-face {
-//  font-family: 'Helvetica Neue Cyr Bold';
-//   src: url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot');
-//   src: url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
-//   url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff') format('woff'),
-//   url('./fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf') format('truetype');
-//  font-weight: normal;
-//  font-style: normal;
-// }
+@font-face {
+ font-family: 'Helvetica Neue Cyr Bold';
+  src: url('./fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.eot');
+  src: url('./fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.woff') format('woff'),
+  url('./fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
 @font-face {
  font-family: 'Minion Pro Regular';
   src: url('./fonts/MinionPro-Regular/MinionPro-Regular.eot');
@@ -43,9 +43,9 @@
  font-family: 'Helvetica Neue Medium', sans-serif;
  font-weight: 500;
 }
-// @mixin boldHelveticaCyr{
-//  font-family: 'Helvetica Neue Cyr Bold', sans-serif;
-// }
+@mixin boldHelveticaCyr{
+ font-family: 'Helvetica Neue Cyr Bold', sans-serif;
+}
 @mixin regularMinion{
  font-family: 'Minion Pro Regular', sans-serif;
 }

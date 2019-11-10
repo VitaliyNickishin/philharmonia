@@ -5,33 +5,37 @@
  padding: 20px 10px
  &-top
   display: flex
-  align-items: center
+  // align-items: center
+  justify-content: space-between
+  flex-wrap: wrap
+  letter-spacing: -2px
   &__begining
-   margin-left: 70px
+   margin-bottom: 20px
    color: $mainOrange
   &__finish
-   margin-left: 65px
+   // margin-left: 65px
    color: $mainGrey
-  &__text
-   margin-left: 67px
+  &__text, &__right-info
+   margin-top: 18px
+  
+
 
 .date
- +boldHelvetica
- line-height: 0.8
+ +boldHelveticaCyr
+ line-height: 0.1
  h1
-  font-size: 90px
+  font-size: 80px
  span
-  font-size: 50px
+  font-size: 44px
   text-transform: uppercase
 
 .text
- margin-bottom: 30px
- width: 352px
+ width: 356px
  text-align: left
  font-size: 29px
  text-transform: uppercase
  line-height: 0.8
- +boldHelvetica
+ +boldHelveticaCyr
  color: $mainOrange
  span
   color: $mainBlack
@@ -51,13 +55,28 @@
  &__icons
   // margin-top: 20px
   display: flex
+  align-items: center
   button
    margin-left: 10px
    border: none
    background-color: transparent
+ a
+  &:hover
+   color: $mainBlack
  &__donate
   // margin-top: 20px
   font-size: 21px
   color: $mainOrange
   text-transform: uppercase
   +boldHelvetica
+
+@media screen and (max-width: 768px) 
+ .header
+  &-top
+   flex-direction: column
+   // text-align: center
+   &__text
+    text-align: center
+    width: auto
+ .right-info
+  align-items: center

@@ -30,7 +30,7 @@ export default function Header() {
       </p>
      </div>
 
-     <div className="right-info">
+     <div className="right-info header-top__right-info">
       <div className="right-info__text">
        shop/<br/>cart
       </div>
