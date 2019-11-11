@@ -1,0 +1,61 @@
+@import '../../assets/vars.sass'
+@import '../../assets/fonts.scss'
+
+.navs
+ background: $mainWhite
+ 
+ &-header
+  text-align: right
+ 
+ &-btn 
+  background: transparent
+  border: none
+  cursor: pointer
+  &:focus
+   outline: none
+
+ &-icon 
+  font-size: 1.5rem
+  color: $secondGrey
+
+ &-links
+  margin: auto 
+  height: 0
+  overflow: hidden
+  transition: $mainTransition
+  a 
+   display: block
+   padding: 1rem 0
+   color: $secondGrey
+   transition: $mainTransition
+   text-align: center
+   font-size: 21px
+   +boldHelveticaCyr
+   text-transform: uppercase
+   letter-spacing: $mainSpacing
+   &:hover 
+    color: $mainOrange
+  .active
+   color: $mainOrange
+
+.show-nav 
+ height: auto
+
+@media screen and (min-width: $tableWidth) 
+ .navs
+  &-btn 
+   display: none
+ 
+  &-center 
+   max-width: 1170px
+   margin: 0 auto
+   display: flex
+ 
+  &-links 
+   height: auto
+   display: flex
+   align-items: center
+   a 
+    margin: 0 1rem
+    padding: 0.5rem 0
+ 
