@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import HeaderSlider from './components/HeaderSlider/HeaderSlider'
 import WhatsOn from './components/WhatsOn/WhatsOn'
 import SingWithUs from './components/SingWithUs/SingWithUs'
+import LastVideo from './components/LastVideo/LastVideo'
 import './App.sass'
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <HeaderSlider/>
       <WhatsOn/>
       <SingWithUs/>
+      <LastVideo/>
+      
     </div>
   );
 }
