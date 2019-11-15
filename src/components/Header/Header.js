@@ -1,8 +1,9 @@
 import React from 'react'
-import logo from '../../logo.png'
+// import logo from '../../logo.png'
 import search from '../../assets/img/icons/search.png'
 import {Container} from 'react-bootstrap'
 import SocialIcons from '../SocialIcons/SocialIcons'
+import Logo from '../Logo/Logo'
 import './Header.sass'
 
 export default function Header() {
@@ -10,10 +11,10 @@ export default function Header() {
   <header className="header">
    <Container>
     <div className="header-top">
-     <div className="logo">
+     {/* <div className="logo">
       <img src={logo} alt="logo"/>
-     </div>
-
+     </div> */}
+      <Logo/>
      <div className="date header-top__begining">
       <h1>2017</h1>
       <span>season</span>

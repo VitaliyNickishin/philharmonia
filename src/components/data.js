@@ -4,6 +4,7 @@ import img3 from '../assets/img/whats/3.png'
 import img4 from '../assets/img/whats/4.png'
 import img5 from '../assets/img/whats/5.png'
 import img6 from '../assets/img/whats/6.png'
+import img7 from '../assets/img/sing/7.png'
 
 export const whatsOnData = [
  {
@@ -55,3 +56,14 @@ export const whatsOnData = [
    price: "Tickets: $75 plus booking fees"
  }
 ];
+
+export const singData = [
+  {
+    id: 7,
+    url: img7,
+    alt: "img7",
+    title: "Workshop / discover sing with uS ",
+    info: "Workshop saturday 10th and sunday 11th june performance sunday 11th june, 5pm concert hall, sydney opera house",
+    price: "Tickets: $75 plus booking fees"
+  }
+]

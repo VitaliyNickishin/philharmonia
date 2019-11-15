@@ -12,7 +12,7 @@ export default class WhatsOn extends Component {
  render() {
   const {whatson} = this.state
   return (
-   <Section name="whatson">
+   <Section name="whatson" id="whatson">
     <Title title="What's on" />
     {whatson.map(element => {
      return (

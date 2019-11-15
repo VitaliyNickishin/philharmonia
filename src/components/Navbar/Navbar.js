@@ -28,7 +28,7 @@ export default class Navbar extends Component {
       <ul className={this.state.isOpen ? "navs-links show-nav" : "navs-links"}>
        <li>
         {/* <Link to="/">Whats on</Link> */}
-        <a href="#" className="active">What's on</a>
+        <a href="#whatson" className="active">What's on</a>
        </li>
        <li>
         {/* <Link to="/">Support us</Link> */}
