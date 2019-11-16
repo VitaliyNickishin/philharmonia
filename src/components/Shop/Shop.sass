@@ -1,0 +1,70 @@
+@import '../../assets/vars.sass'
+@import '../../assets/fonts.scss'
+
+.shop
+ &-img
+  // width: 375px
+  // height: 214px
+  img
+   // width: 100%
+ &-support
+  display: flex
+  align-items: center
+  &__img
+   // width: 375px
+   // height: 214px
+   // img
+   //  width: 100%
+
+.rectangle
+ margin-left: 18px
+ width: 375px
+ height: 214px
+ background-color: #2d286f
+ text-transform: uppercase
+ +boldHelveticaCyr
+ line-height: 0.8
+ p
+  padding-top: 60px
+  padding-left: 20px
+  font-size: 35px
+  color: $mainOrange
+  letter-spacing: -4.7px
+  span
+   color: $mainWhite
+
+@media screen and (max-width: 992px)
+ .shop
+  &-title
+   margin-top: 40px
+  &-img
+   text-align: center
+  &-support
+   padding: 0
+   flex-direction: column
+ .rectangle
+  margin-left: 0
+  margin-top: 20px
+  p
+   padding-top: 50px
+
+@media screen and (max-width: $phoneWidth)
+ .shop
+  &-img
+   margin: auto
+   width: 290px
+   height: auto
+   img
+    width: 100%
+  &-support
+   &__img
+    width: 290px
+    height: auto
+    img
+     width: 100%
+
+ .rectangle
+  width: 290px
+  height: auto
+  p
+   padding: 10px

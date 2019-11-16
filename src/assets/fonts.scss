@@ -16,6 +16,14 @@
  font-weight: 500;
  font-style: normal;
 }
+// @font-face {
+//  font-family: 'Helvetica Neue Condenced';
+//   src: url('./fonts/HelveticaNeueCondenced/HelveticaNeue-Condensed.eot');
+//   src: url('./fonts/HelveticaNeueCondenced/HelveticaNeue-Condensed.eot?#iefix') format('embedded-opentype'),
+//   url('./fonts/HelveticaNeueCondenced/HelveticaNeue-Condensed.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+// }
 @font-face {
  font-family: 'Helvetica Neue Cyr Bold';
   src: url('./fonts/HelveticaNeueCyrBold/HelveticaNeueCyr-Bold.eot');
@@ -43,6 +51,9 @@
  font-family: 'Helvetica Neue Medium', sans-serif;
  font-weight: 500;
 }
+// @mixin boldHelveticaCyr{
+//  font-family: 'Helvetica Neue Condenced', sans-serif;
+// }
 @mixin boldHelveticaCyr{
  font-family: 'Helvetica Neue Cyr Bold', sans-serif;
 }
