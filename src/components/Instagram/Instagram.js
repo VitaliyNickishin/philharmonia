@@ -15,11 +15,7 @@ export default function Instagram() {
    <div className="instagram-img">
     <img src={inst} alt="inst"/>
    </div>
-   
     <SocialIcons name="instagram-social"/>
-   
-   
-
   </Section>
  )
 }

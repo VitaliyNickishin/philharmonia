@@ -8,6 +8,7 @@ import LastVideo from './components/LastVideo/LastVideo'
 import Shop from './components/Shop/Shop'
 import Subscribe from './components/Subscribe/Subscribe'
 import Instagram from './components/Instagram/Instagram'
+import Partners from './components/Partners/Partners'
 import './App.sass'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Shop/>
       <Subscribe/>
       <Instagram/>
+      <Partners/>
     </div>
   );
 }

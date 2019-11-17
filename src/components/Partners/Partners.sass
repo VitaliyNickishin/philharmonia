@@ -1,0 +1,21 @@
+@import '../../assets/vars.sass' 
+
+.partners
+ background-color: $bgFooter
+ &-title
+  text-align: center
+ &-img
+  display: flex
+  justify-content: space-between
+  img
+   object-fit: contain
+
+@media screen and (max-width: 1200px)
+ .partners
+  &-title
+  &-img
+   flex-direction: column
+   img
+    margin-top: 40px
+    &:first-child
+     margin-top: 0
