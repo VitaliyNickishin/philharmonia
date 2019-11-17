@@ -7,7 +7,7 @@ import './SocialIcons.sass'
 
 export default function SocialIcons({name}) {
  return (
-  <div className={name}>
+  <div className={`social ${name}`}>
    <a href="#">
     <img src={fb} alt="fb"/>
    </a>
@@ -24,6 +24,6 @@ export default function SocialIcons({name}) {
  )
 }
 
-SocialIcons.defaultProps={
- name: 'social'
-}
+// SocialIcons.defaultProps={
+//  name: 'social'
+// }

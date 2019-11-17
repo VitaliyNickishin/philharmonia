@@ -7,6 +7,7 @@ import SingWithUs from './components/SingWithUs/SingWithUs'
 import LastVideo from './components/LastVideo/LastVideo'
 import Shop from './components/Shop/Shop'
 import Subscribe from './components/Subscribe/Subscribe'
+import Instagram from './components/Instagram/Instagram'
 import './App.sass'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <LastVideo/>
       <Shop/>
       <Subscribe/>
+      <Instagram/>
     </div>
   );
 }
