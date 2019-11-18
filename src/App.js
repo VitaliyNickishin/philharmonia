@@ -9,6 +9,7 @@ import Shop from './components/Shop/Shop'
 import Subscribe from './components/Subscribe/Subscribe'
 import Instagram from './components/Instagram/Instagram'
 import Partners from './components/Partners/Partners'
+import Footer from './components/Footer/Footer'
 import './App.sass'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Subscribe/>
       <Instagram/>
       <Partners/>
+      <Footer/>
     </div>
   );
 }

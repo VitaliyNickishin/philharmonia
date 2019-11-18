@@ -1,0 +1,50 @@
+@import '../../assets/fonts.scss' 
+@import '../../assets/vars.sass' 
+
+.footer
+ background-color: $bgFooter
+ color: $mainWhite
+ text-align: center
+ &-arrow
+  display: block
+  margin-bottom: 65px
+  transition: all .2s
+  &:hover
+   transform: scale(1.1)
+ &-info
+  font-size: 24px
+  h5
+   text-transform: uppercase
+   +boldHelveticaCyr
+   margin-bottom: 15px
+  address
+   letter-spacing: 0.24px
+  a
+   display: block
+   color: $mainWhite
+ &-icons
+  margin-top: 40px
+  display: flex
+  align-items: center
+  justify-content: center
+  &__social
+   width: 116px
+   a
+    width: 24px
+  &__search
+   margin-left: 8px
+   img
+    width: 24px
+ &-creators
+  margin-top: 89px
+  letter-spacing: 0.32px
+  p
+   &:last-child
+    margin-top: 20px
+   span
+    text-transform: uppercase
+
+@media screen and (max-width: $phoneWidth)
+ .footer
+  &-info
+   font-size: 20px
