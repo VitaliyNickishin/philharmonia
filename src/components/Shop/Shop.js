@@ -9,7 +9,7 @@ import './Shop.sass'
 
 export default function Shop() {
  return (
-  <Section name="shop">
+  <Section name="shop" id="support">
    <Row>
     <Col lg={4}>
      <Title title="Our shop"/>

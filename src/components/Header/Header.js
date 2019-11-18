@@ -16,12 +16,12 @@ export default function Header() {
      </div>
       {/* <Logo/> */}
      <div className="date header-top__begining">
-      <h1>2017</h1>
+      <p>2017</p>
       <span>season</span>
      </div>
 
      <div className="date header-top__finish">
-      <h1 className="end">2018</h1>
+      <p className="end">2018</p>
       <span className="end">season</span>
      </div>
 

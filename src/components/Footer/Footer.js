@@ -7,7 +7,7 @@ import './Footer.sass'
 
 export default function Footer() {
  return (
-  <Section name="footer">
+  <Section name="footer" id="contact">
    <a href="#header"className="footer-arrow">
     <img src={arrowUp} alt="arrowUp"/>
    </a>

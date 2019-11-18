@@ -7,7 +7,7 @@ import SocialIcons from '../SocialIcons/SocialIcons'
 
 export default function Instagram() {
  return (
-  <Section name="instagram">
+  <Section name="instagram" id="about">
    <Title 
     title="Our instagram"
     name="instagram-title"

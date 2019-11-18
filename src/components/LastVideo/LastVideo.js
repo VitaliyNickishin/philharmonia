@@ -6,7 +6,7 @@ import './LastVideo.sass'
 
 export default function LastVideo() {
  return (
-  <Section name="last-video" id="last-video">
+  <Section name="last-video" id="media">
    <Title title="our latest youtube video"/>
    <YouTube
     video="LnKJpYGCLsg"
