@@ -12,7 +12,7 @@ import slide4 from '../../assets/img/slider/1.webp'
 import arrowLeft from '../../assets/img/icons/arrow-left.png'
 import arrowRight from '../../assets/img/icons/arrow-right.png'
 import Banner from '../Banner/Banner'
-import ButtonBook from '../ButtonBook/ButtonBook'
+import Button from '../Button/Button'
 import './HeaderSlider.sass'
 
 export default class HeaderSlider extends Component {
@@ -59,7 +59,10 @@ export default class HeaderSlider extends Component {
         title="elgar the dream of gerontius" 
         subtitle="400 singers perform elgar’s monumental work under the stunning Sydney opera house sails."
       >
-        <ButtonBook name="header-slider__btn"/>
+        <Button 
+          name="header-slider__btn"
+          text="Book now"
+        />
       </Banner>
       <img src={slide1} alt="slide1"/>
      </div>
@@ -70,7 +73,10 @@ export default class HeaderSlider extends Component {
         title="Romeo and Julietta" 
         subtitle="100 actors monumental work under the stunning London opera house sails."
       >
-        <ButtonBook name="header-slider__btn"/>
+        <Button 
+          name="header-slider__btn"
+          text="Book now"
+        />
       </Banner>
       <img src={slide2} alt="slide2"/>
      </div>
@@ -81,7 +87,10 @@ export default class HeaderSlider extends Component {
         title="Le Nozze di Figaro" 
         subtitle="Together with Don Giovanni and Cosi fan Tutte, which make up Mozart's trio of masterpieces with libretti by Da Ponte."
       >
-        <ButtonBook name="header-slider__btn"/>
+        <Button 
+          name="header-slider__btn"
+          text="Book now"
+        />
       </Banner>
       <img src={slide3} alt="slide3"/>
      </div>
@@ -92,7 +101,10 @@ export default class HeaderSlider extends Component {
         title="Rigoletto" 
         subtitle="Verdi, one of opera's greats, had a long career. For many his Egyptian Aida is an ideal first opera."
       >
-        <ButtonBook name="header-slider__btn"/>
+        <Button 
+          name="header-slider__btn"
+          text="Book now"
+        />
       </Banner>
       <img src={slide4} alt="slide4"/>
      </div>

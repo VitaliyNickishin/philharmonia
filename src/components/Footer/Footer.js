@@ -1,5 +1,5 @@
 import React from 'react'
-import Section from '../Section/Section'
+import {Container} from 'react-bootstrap'
 import arrowUp from '../../assets/img/icons/arrow-up.png'
 import SocialIcons from '../SocialIcons/SocialIcons'
 import Search from '../Search/Search'
@@ -7,8 +7,9 @@ import './Footer.sass'
 
 export default function Footer() {
  return (
-  <Section name="footer" id="contact">
-   <a href="#header"className="footer-arrow">
+  <footer className="footer" id="contact">
+   <Container>
+    <a href="#header"className="footer-arrow">
     <img src={arrowUp} alt="arrowUp"/>
    </a>
    <div className="footer-info">
@@ -29,6 +30,7 @@ export default function Footer() {
     <p><span>Design</span> Sylvia Weimer, Spacelab Design www.spacelabdesign.com</p>
     <p><span>Photography</span> Keith Saunders and Will Taylor</p>
    </div>
-  </Section>
+   </Container>
+  </footer>
  )
 }

@@ -1,15 +1,15 @@
 import React from 'react'
-import './ButtonInfo.sass'
+import './Button.sass'
 
-export default function ButtonInfo(props) {
- const {name, onClick} = props
+export default function Button(props) {
+ const {name, onClick, text} = props
  return (
   <button 
    type="submit" 
-   className={`info ${name}`}
+   className={`button ${name}`}
    onClick={onClick}
    >
-   more info 
+   {text}
   </button>
  )
 }

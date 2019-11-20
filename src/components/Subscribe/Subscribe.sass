@@ -3,36 +3,26 @@
 
 .subscribe
  text-align: center
+ padding-bottom: 0
  &-title
   text-align: center
  &-btn
   button
-   padding: 5px 40px
-   text-transform: uppercase
-   font-size: 19px
    border: 1px solid $secondGrey
    background-color: transparent
-   +boldHelveticaCyr
-   transition: $mainTransition
+   font-size: 19px
+   padding: 0
+   height: 35px
    &:first-child
     color: $secondGrey
+    width: 139px
     &:hover
      color: $mainBlack
-     border: 1px solid $mainOrange
+     background-color: $mainOrange
    &:last-child
     margin-left: 10px
+    width: 121px
     color: $mainOrange
     &:hover
      color: $mainBlack
-     border: 1px solid $mainOrange
-
-@media screen and (max-width: $phoneWidth)
- .subscribe
-  &-btn
-   display: flex
-   flex-direction: column
-   button
-    // display: block
-    &:last-child
-     margin-left: 0
-     margin-top: 20px
+     background-color: $mainOrange
