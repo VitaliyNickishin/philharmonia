@@ -4,6 +4,7 @@ import {Container} from 'react-bootstrap'
 import SocialIcons from '../SocialIcons/SocialIcons'
 // import Logo from '../Logo/Logo'
 import Search from '../Search/Search'
+import Navbar from '../Navbar/Navbar'
 import './Header.sass'
 
 export default function Header() {
@@ -32,26 +33,21 @@ export default function Header() {
      </div>
 
      <div className="right-info header-top__right-info">
-      <div className="right-info__text">
+      <a href="#shop" className="right-info__text">
        shop/<br/>cart
-      </div>
+      </a>
       <div className="right-info__icons">
        <SocialIcons />
        <Search />
       </div>
-       <a href="#" className="right-info__donate">
+       <a href="#donaete" className="right-info__donate">
         <p>donate</p>
        </a>
-
      </div>
-     
+
     </div>{/* header-top */}
-    
+    <Navbar/>
    </Container>
-   
-
-
-   
   </header>
  )
 }

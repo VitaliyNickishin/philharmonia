@@ -8,16 +8,16 @@ import './SocialIcons.sass'
 export default function SocialIcons({name}) {
  return (
   <div className={`social ${name}`}>
-   <a href="#">
+   <a href="#fb">
     <img src={fb} alt="fb"/>
    </a>
-   <a href="#">
+   <a href="#tw">
     <img src={tw} alt="tw"/>
    </a>
-   <a href="#">
+   <a href="#inst">
     <img src={inst} alt="inst"/>
    </a>
-   <a href="#">
+   <a href="#youtube">
     <img src={youtube} alt="youtube"/>
    </a>
   </div>
